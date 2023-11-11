@@ -83,27 +83,28 @@ WSGI_APPLICATION = "myproject.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mywebsite_9zm3',
-        'USER': 'dvooskid',
-        'PASSWORD': 'BeRvz6J1SXVAJNUMaqvhTbHZsrp0W9Zu',
-        'HOST': 'dpg-ck7t3qnq54js7398be4g-a.frankfurt-postgres.render.com',
-        'PORT': '5432',
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": "db.sqlite3"
 
     }
 }
 
+
 # DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.postgresql",
-#         "NAME": "genetic_algorithm",
-#         "HOST": "localhost",
-#         "USER": "dvooskid",
-#         "PASSWORD": "Dvooskid001",
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'mywebsite_9zm3',
+#         'USER': 'dvooskid',
+#         'PASSWORD': 'BeRvz6J1SXVAJNUMaqvhTbHZsrp0W9Zu',
+#         'HOST': 'dpg-ck7t3qnq54js7398be4g-a.frankfurt-postgres.render.com',
+#         'PORT': '5432',
+
 #     }
 # }
+
 
 
 # Password validation
