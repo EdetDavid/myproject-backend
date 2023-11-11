@@ -23,7 +23,7 @@ class UserSerializer(serializers.ModelSerializer):
         return user
 
 
-class ContactSerializer(serializers.ModelSerializer):
+class OptimizationResultSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Contact
-        fields = "__all__"
+        model = OptimizationResult
+        fields = '__all__'
